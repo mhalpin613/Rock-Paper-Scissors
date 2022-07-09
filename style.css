@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Edu SA Beginner', sans-serif;
+    color: darkslategrey;
+    font-size: 3em;
+}
+
+.title {
+    display: flex;
+    margin-top: 1.5em;
+    justify-content: center;
+}
+
+.play-buttons {
+    gap: 1em;
+}
+
+.score, .play-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#rock, #paper, #scissors {
+    width: 15em;
+    height: 15em;
+    border-radius: 1.5em;
+    background-size: cover;
+    background-color: white;
+}
+
+#rock:hover {
+    transform: scale(1.1);
+    cursor: grabbing;
+}
+
+#paper:hover {
+    transform: scale(1.1);
+    cursor: grabbing;
+}
+
+#scissors:hover {
+    transform: scale(1.1);
+    cursor: grabbing;
+}
+
+.choices {
+    font-size: .75em;
+    margin-top: 2em;
+    margin-left: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
