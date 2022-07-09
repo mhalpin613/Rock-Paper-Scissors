@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors
-Rock, Paper, Scissors in JavaScript.
+A simple game of rock, paper, scissors to practice css styling, flexbox, and javascript.
