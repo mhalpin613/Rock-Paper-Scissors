@@ -1,56 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: powderblue;
     font-family: 'Edu SA Beginner', sans-serif;
     color: darkslategrey;
-    font-size: 3em;
+    font-size: 48px;
 }
 
 .title {
     display: flex;
-    margin-top: 1.5em;
+    margin-top: 80px;
     justify-content: center;
 }
 
 .play-buttons {
-    gap: 1em;
+    gap: 75px;
 }
 
-.score, .play-buttons {
+.play-buttons {
     display: flex;
     justify-content: center;
-    margin-top: 2em;
+    margin-top: 80px;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 }
 
 #rock, #paper, #scissors {
-    width: 15em;
-    height: 15em;
-    border-radius: 1.5em;
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
     background-size: cover;
     background-color: white;
+    transition: 100ms;
 }
 
 #rock:hover {
-    transform: scale(1.1);
-    cursor: grabbing;
+    transform: scale(1.15);
+    cursor: pointer;
 }
 
 #paper:hover {
-    transform: scale(1.1);
-    cursor: grabbing;
+    transform: scale(1.15);
+    cursor: pointer;
 }
 
 #scissors:hover {
-    transform: scale(1.1);
-    cursor: grabbing;
+    transform: scale(1.15);
+    cursor: pointer;
 }
 
 .choices {
-    font-size: .75em;
-    margin-top: 2em;
-    margin-left: 3em;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 20px;
 }
