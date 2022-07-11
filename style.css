@@ -4,35 +4,34 @@ body {
     background-color: powderblue;
     font-family: 'Edu SA Beginner', sans-serif;
     color: darkslategrey;
-    font-size: 48px;
+    font-size: 5vh;
 }
 
 .title {
     display: flex;
-    margin-top: 80px;
+    margin-top: 8.2vh;
     justify-content: center;
 }
 
 .play-buttons {
-    gap: 75px;
+    gap: 3.9vw;
 }
 
 .play-buttons {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 8.2vh;
 }
 
 #score {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 8.2vh;
 }
 
 #rock, #paper, #scissors {
-    width: 175px;
-    height: 175px;
     border-radius: 10px;
+    border-color: white;
     background-size: cover;
     background-color: white;
     transition: 100ms;
@@ -54,10 +53,10 @@ body {
 }
 
 .choices {
-    font-size: 36px;
-    margin-top: 30px;
-    margin-left: 30px;
+    font-size: 3.7vh;
+    margin-top: 8.2vh;
+    margin-left: 1.56vw;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 3vh;
 }

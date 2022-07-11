@@ -49,10 +49,10 @@ function game(playerChoice) {
     }
 
     // updates html
-    score.innerHTML = playerScore + " - " + cpuScore;
-    playerMove.innerHTML = "Your choice: " + playerPick;
-    computerChoice.innerHTML = "CPU choice: " + cpuPick;
-    result.innerHTML = "Result : " + roundResult;
+    score.innerText = playerScore + " - " + cpuScore;
+    playerMove.innerText = "Your choice: " + playerPick;
+    computerChoice.innerText = "CPU choice: " + cpuPick;
+    result.innerText = "Result : " + roundResult;
 
     // check if the game should be ended
     checkWinner(playerScore, cpuScore);
